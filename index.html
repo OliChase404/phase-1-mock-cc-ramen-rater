@@ -33,8 +33,23 @@
   <p id='comment-display'>
     Insert comment here
   </p>
+  <button id="deleteRamen">Delete Ramen</button>
 
-  <!-- New Ramen Form -->
+  
+  <form id="update-ramen">
+    <h4>Update Selected Ramen</h4>
+    <label for="name">Name: </label>
+    <input type="text" name="name" id="update-name" />
+    <label for="restaurant">Restaurant: </label>
+    <input type="text" name="restaurant" id="update-restaurant" />
+    <label for="image">Image: </label>
+    <input type="text" name="image" id="update-image" />
+    <label for="rating">Rating: </label>
+    <input type="number" name="rating" id="update-rating" />
+    <label for="update-comment">Comment: </label>
+    <textarea name="update-comment" id="update-comment"></textarea>
+    <input type="submit" value="Update" />
+  </form>
   <form id="new-ramen">
     <h4>Add New Ramen</h4>
     <label for="name">Name: </label>
